@@ -85,3 +85,8 @@ updates:
           - 'eslint'
           - 'eslint-plugin-*'
           - '@typescript-eslint/*'
+
+  - package-ecosystem: docker
+    directory: /.devcontainer
+    schedule:
+      interval: daily
